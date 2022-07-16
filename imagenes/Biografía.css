@@ -1,0 +1,40 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: url('fondo1.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box{
+    width: 500px;
+    background: rgb(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 200px;
+    margin: 30px 0 20px;
+}
+
+.box h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    text-align: justify;
+}
